@@ -1,0 +1,3 @@
+export cloud from rtabmap database
+
+rtabmap-export --output_dir "/opt/ros/melodic/share/rtabmap_ros/launch/" --output "test.ply" --voxel 0 /root/.ros/rtabmap.db 
